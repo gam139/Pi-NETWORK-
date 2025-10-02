@@ -7,7 +7,7 @@ tags: [Docker, Pi节点, 网络优化, 容器监控, 技术笔记]
 description: 记录 Pi 节点容器在 Docker 中因网络流量过高导致退出的问题，并提出多项优化策略以保障节点稳定运行。
 ---
 
-# 🧠 问题背景
+# 🧠 问题背景：
 
 - Pi 节点运行在 Docker 容器中
 - 当容器的 NETWORK I/O 中的 O（Outbound）值达到约 30GB 时，容器自动退出
